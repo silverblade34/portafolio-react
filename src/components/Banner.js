@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from '../assets/michell.png'
+import Image from '../assets/michellavatar.png'
 import { FaGithub, FaLinkedin, FaDribbble } from 'react-icons/fa'
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
