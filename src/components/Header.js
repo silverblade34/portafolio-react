@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../assets/logo.svg';
+import Logo from '../assets/logomarco.svg';
 
 const Header = () => {
   return <header className='py-8'>
@@ -7,9 +7,9 @@ const Header = () => {
       <div className='flex justify-between items-center'>
         {/* logo */}
         <a href='#'>
-          <img src={Logo} alt='Logo'/>
+          <img className='logo-marcos' src={Logo} alt='Logo'/>
         </a>
-        <button className='btn btn-sm'>Work with me</button>
+        <button className='btn btn-sm'>Mis trabajos</button>
       </div>
     </div>
   </header>;

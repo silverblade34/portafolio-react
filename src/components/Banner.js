@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from '../assets/avatar.svg'
+import Image from '../assets/michell.png'
 import { FaGithub, FaLinkedin, FaDribbble } from 'react-icons/fa'
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
@@ -38,7 +38,7 @@ const Banner = () => {
             variants={fadeIn('up', 0.5)} initial='hidden'
             whileInView={'show'} viewportince={{ once: false, amount: 0.7 }}
             className='mb-8 max-w-lg mx-auto lg:mx-0'>
-            Lorem Ipsum es un texto de marcador de posición comúnmente utilizado en las industrias gráficas, gráficas y editoriales para previsualizar diseños y maquetas visuales.
+            Soy un apasionado por la tecnología y la programación. Me encanta trabajar en proyectos desafiantes y estoy constantemente aprendiendo nuevas habilidades y tecnologías para mejorar mis habilidades.
           </motion.p>
           <motion.div 
           variants={fadeIn('up', 0.6)} initial='hidden'
