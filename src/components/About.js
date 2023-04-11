@@ -23,7 +23,7 @@ const About = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className='flex-1 bg-about bg-contain bg-no-repeat h-[640px]
+            className='flex-1 mt-12 bg-about bg-contain bg-no-repeat h-[690px]
           mix-blend-lighten bg-top'>
           </motion.div>
           {/* text */}
@@ -33,43 +33,33 @@ const About = () => {
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
            className='flex-1'>
-            <h2 className='h2 text-white'>About me</h2>
-            <h3 className='h3 mb-4'>I'am a Freelance Front-end Developer with over 5 years of
-              experience</h3>
+            <h2 className='h2 text-white'>Acerca de mí</h2>
+            <h3 className='h3 mb-4'>Desarrollador FullStack Jr con 1 año de experiencia</h3>
             <p>
-              Lorem Ipsum es un texto de marcador de posición comúnmente utilizado en las industrias gráficas, gráficas y editoriales para previsualizar diseños y maquetas visuales.
+            Soy un estudiante de Ingeniería de software, curso el 9 ciclo de mi carrera. Me apasiona el desarrollo, y disfruto trabajar tanto en el frontend como en el backend. Si bien tengo experiencia en ambos,
+             siento una especial predilección por el backend utilizando Python, Flask, Node.js, Express.js, etc.
             </p>
             {/* stats */}
-            <div className='flex gap-x-6 lg:gap-x-10 mb-12'>
-              <div>
-                <div className='text-[40px] font-tertiary text-gradient
-                mb-2'>
-                  {inView ? <CountUp start={0} end={1} duration={3} /> : null}
-                </div>
-                <div className='font-primary text-sm tracking-[2px]'>
-                  Years of <br />
-                  Experience
-                </div>
-              </div>
+            <div className='flex gap-x-6 lg:gap-x-10 mb-12 mt-10'>
               <div >
                 <div className='text-[40px] font-tertiary text-gradient
                 mb-2'>
                   {inView ? <CountUp start={0} end={1} duration={3} /> : null}
                 </div>
                 <div className='font-primary text-sm tracking-[2px]'>
-                  Years of <br />
-                  Experience
+                  Año de <br />
+                  Experiencia
                 </div>
               </div>
               <div>
                 <div className='text-[40px] font-tertiary text-gradient
                 mb-2'>
-                  {inView ? <CountUp start={0} end={2} duration={3} /> : null}
-                  k+
+                  +
+                  {inView ? <CountUp start={0} end={50} duration={3} /> : null}
                 </div>
                 <div className='font-primary text-sm tracking-[2px]'>
-                  Projects <br />
-                  Completed
+                  Proyectos <br />
+                  Completados
                 </div>
               </div>
             </div>
@@ -78,8 +68,7 @@ const About = () => {
               whileInView={'show'} viewportince={{ once: false, amount: 0.7 }}
               className='flex max-w-max gap-x-6 items-center 
           mb-12 mx-auto lg:mx-0'>
-              <button className='btn btn-lg'>Contact me</button>
-              <a href='#' className='text-gradient btn-link'>My portafolio</a>
+              <button className='btn btn-lg'>Contáctame</button>
             </motion.div>
           </motion.div>
         </div>
