@@ -7,23 +7,23 @@ const services = [
   {
     name: 'BACKEND',
     description: 'Desarrollo de servicios backend, como Node.js, Express.js y MongoDB. Me encanta crear APIs robustas y escalables.',
-    link: 'Learn more'
+    link: 'Ver Más'
   },
   {
     name: 'FRONTEND',
     description: 'Como desarrollador frontend, me encanta trabajar con tecnologías como React.js y Next.js para crear interfaces de usuario interactivas y elegantes',
-    link: 'Learn more'
+    link: 'Ver Más'
   },
   {
     name: 'UX/UI',
     description: 'Me apasiona crear diseños de usuario efectivos y atractivos que maximicen la usabilidad y la accesibilidad.',
-    link: 'Learn more'
+    link: 'Ver Más'
   }
 ]
 
 const Services = () => {
-  return <section className='section' id='services'>
-    <div className='container mx-auto'>
+  return <section className='section px-5 mt-10 lg:mt-0' id='services'>
+    <div className='container mt-10 lg:mt-0 mx-auto'>
       <div className='flex flex-col lg:flex-row'>
         {/* Texto e imagen */}
         <motion.div
@@ -31,7 +31,7 @@ const Services = () => {
           whileInView={'show'} viewportince={{ once: false, amount: 0.3 }}
           className='flex-1 lg:bg-services lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-0'>
           <h2 className='h2 mb-6'>¿Que realizó?</h2>
-          <h3 className='h3 text-accent max-w-[455px] mb-16'>"La tecnología suficiente es indistinguible de la magia"</h3>
+          <h3 className='h3 text-accent max-w-[455px] text-[18px] md:text-[21px] lg:text-[24px] mb-6 lg:mb-16'>"La tecnología suficiente es indistinguible de la magia"</h3>
           <button className='btn btn-sm'>Ver mi trabajo</button>
         </motion.div>
         <motion.div
@@ -54,7 +54,7 @@ const Services = () => {
                     <a href='#' className='btn w-9 h-9 mb-[42px] flex justify-center items-center'>
                       <BsArrowUpRight />
                     </a>
-                    <a href='#' className='text-gradient'>{link}</a>
+                    <a href='#' className='text-gradient text-[15px] lg:text-[18px]'>{link}</a>
                   </div>
                 </div>);
             })}
